@@ -55,6 +55,15 @@ a:hover {
   color: white
 }
 
+/*.clear-cards {
+    clear:both;
+    margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  float:left;
+
+}*/
+
 header {
   text-align: center;
   background: url('images/austin.jpg') no-repeat top center ;
@@ -77,7 +86,8 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(2.2) rotate(360deg);
+  border-color: darkred;
 }
 .tag {
   background-color: #efefef;
@@ -185,9 +195,12 @@ a.social:hover {
   header {
     min-height: 470px;
   }
+
   .blank-header {
     min-height:10px;
   }
+
+  
   .nav {
     max-width: 1200px;
     padding: 0 30px;
